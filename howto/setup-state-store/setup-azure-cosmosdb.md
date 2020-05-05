@@ -86,7 +86,7 @@ For example, the following operation will use the partition key `nihilus` as the
 
 ```shell
 curl -X POST http://localhost:3500/v1.0/state/<store_name> \
-  -H "Content-Type: application/json"
+  -H "Content-Type: application/json" \
   -d '[
         {
           "key": "nihilus",
